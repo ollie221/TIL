@@ -11,7 +11,7 @@ public class OkJavaGoInHomeInput {
 		
 		String id = args[0];
 		String bright = args[1];
-
+     
 		// Elevator call
 		Elevator myElevator = new Elevator(id);
 		myElevator.callForUp(1);
